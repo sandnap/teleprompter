@@ -2,6 +2,11 @@
 
 A simple JavaScript based teleprompter.
 
+
+## Public access
+
+https://oc-teleprompter.herokuapp.com/
+
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
