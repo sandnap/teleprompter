@@ -1,8 +1,6 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
+  "name": "A Simple Teleprompter",
+  "description": "A simple online teleprompter",
+  "repository": "https://github.com/sandnap/teleprompter",
+  "keywords": ["node", "express", "teleprompter", "javascript"]
 }
