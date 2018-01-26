@@ -14,7 +14,7 @@ label {
   position: fixed;
   top: 10px;
   left: 50px;
-  z-index: 150;
+  z-index: 180;
 }
 #countdown-mask {
   display: none;
@@ -57,8 +57,10 @@ label {
   -ms-transition: left 1s;
   transition: left 1s;
 }
-button {
-  cursor: pointer;
+#script-text {
+  width: 400px;
+  height: 200px;
+  max-width: 90%;
 }
 #script {
   position: relative;
@@ -76,4 +78,20 @@ button {
   -o-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1) !important;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  #settings {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 732px) and (orientation: landscape){
+  #settings {
+    position: absolute;
+    width: 400px;
+  }
 }

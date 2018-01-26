@@ -59,7 +59,7 @@ $(function () {
       $('#settings').addClass('settings-closed');
     },
     toggleMirror: function () {
-      $('#script').toggleClass('mirror');
+      $('#script, #countdown').toggleClass('mirror');
     },
     _countdown: function (curr) {
       var _this = this;

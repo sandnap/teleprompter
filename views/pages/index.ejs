@@ -31,24 +31,24 @@
           <input type="text" name="delay" placeholder="Countdown (seconds)"/>
         </div>
         <div>
-          <button onclick="prompter.toggleMirror()">Toggle Mirror</button>
+          <button class="button" onclick="prompter.toggleMirror()">Toggle Mirror</button>
         </div>
       </div>
       <div class="row">
         <div>
-          <textarea name="script" style="width: 400px; height: 200px;"></textarea>
+          <textarea id="script-text" name="script"></textarea>
         </div>
       </div>
       <div>
-        <button onclick="prompter.updateSettings()">Save Settings</button>
-        <button onclick="prompter.hideSettings()">Cancel</button>
+        <button class="button blue" onclick="prompter.updateSettings()">Save Settings</button>
+        <button class="button" onclick="prompter.hideSettings()">Cancel</button>
       </div>
     </div>
     <div id="toolbar">
-        <button onclick="prompter.start()">Start</button>
-        <button onclick="prompter.stop()">Stop</button>
-        <button onclick="prompter.reset()">Reset</button>
-        <button onclick="prompter.showSettings()">Settings</button>
+        <button class="button blue" onclick="prompter.start()">Start</button>
+        <button class="button blue" onclick="prompter.stop()">Stop</button>
+        <button class="button blue" onclick="prompter.reset()">Reset</button>
+        <button class="button blue" onclick="prompter.showSettings()">Settings</button>
     </div>
     <div id="script">
       <p></p>
