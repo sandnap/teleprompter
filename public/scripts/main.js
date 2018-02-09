@@ -1,8 +1,8 @@
 $(function () {
   window.prompter = {
-    speed: 5,
-    size: 100,
-    delay: 10,
+    speed: 7,
+    size: 97,
+    delay: 5,
     background: 'black',
     foreground: 'white',
     script: 'A teleprompter is a display device that prompts the person speaking with an electronic visual text of a speech or script. Using a teleprompter is similar to using cue cards. The screen is in front of, and usually below, the lens of a professional video camera, and the words on the screen are reflected to the eyes of the presenter using a sheet of clear glass or a specially prepared beam splitter. Light from the performer passes through the front side of the glass into the lens, while a shroud surrounding the lens and the back side of the glass prevents unwanted light from entering the lens.',
